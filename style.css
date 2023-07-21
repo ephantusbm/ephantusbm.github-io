@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 75px;
+    float: left;
+}
+
+.logo{
+    color: chartreuse;
+    font-size: 35px;
+    font-family: 'times new roman';
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(5, 13, 254);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+ul li a:hover{
+    color: #40f404;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #40f404;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ease;
+}
+
+.content .cn a{
+text-decoration: none;
+color: #fff;
+transition: 3s ease;
+}
+
+.cn:hover{
+    background: #ff7200;
+}
+.fieldset {
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    text-size-adjust: 20px;
+    margin-top: 5px;
+    }
+
+.fieldset .con{
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
